@@ -1,7 +1,6 @@
 package com.example.ticketapi.controller;
 
 import com.example.ticketapi.model.Ticket;
-import com.example.ticketapi.model.User;
 import com.example.ticketapi.service.TicketService;
 import com.example.ticketapi.utils.FormatMessageError;
 import lombok.extern.slf4j.Slf4j;
@@ -15,8 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/tickets")

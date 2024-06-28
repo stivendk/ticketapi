@@ -32,29 +32,6 @@ public class UserServiceImpl implements UserService {
         return userDb;
     }
 
-    @Override
-    public User updateUser(User user) {
-        User userDb = getUser(user.getDocumentNumber());
-        if(userDb == null) {
-            log.warn("User not found");
-            return null;
-        }
-        userDb.setFirstName(user.getFirstName());
-        userDb.setLastName(user.getLastName());
-        log.info("User {} updated", user.getDocumentNumber());
-        return userRepository.save(userDb);
-    }
-
-    @Override
-    public void deleteUser(String documentUser) {
-        User userDb = getUser(documentUser);
-        if(userDb == null) {
-            log.warn("User with document number {} not found", documentUser);
-        }else{
-            userRepository.delete(userDb);
-            log.info("User with document number {} deleted", documentUser);
-        }
-    }
 
     @Override
     public List<User> getAllUsers() {
