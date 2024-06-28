@@ -14,6 +14,7 @@ Este proyecto es una API RESTful para la gestión de tickets. Permite crear, eli
 
 ```bash
 git clone https://github.com/stivendk/ticketapi.git
+git checkout master
 cd ticketapi
 ```
 
