@@ -1,0 +1,28 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  # ===============================
+  # DB
+  # ===============================
+  datasource:
+    url: jdbc:h2:mem:ticketDB;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      platform: h2
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: false
+        format_sql: false

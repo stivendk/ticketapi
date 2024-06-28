@@ -1,0 +1,26 @@
+DELETE FROM tbl_users;
+INSERT INTO tbl_users (document_number, first_name, last_name) VALUES ('1234567890', 'John', 'Doe');
+INSERT INTO tbl_users (document_number, first_name, last_name) VALUES ('0987654321', 'Jane', 'Smith');
+
+DELETE FROM tbl_tickets;
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', '2024-06-26T13:17:15.5503421', '2024-06-27T09:32:25.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.', '2024-06-26T14:18:16.5503421', '2024-06-27T10:33:26.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.', '2024-06-26T15:19:17.5503421', '2024-06-27T11:34:27.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.', '2024-06-26T16:20:18.5503421', '2024-06-27T12:35:28.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Et harum quidem rerum facilis est et expedita distinctio.', '2024-06-26T17:21:19.5503421', '2024-06-27T13:36:29.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.', '2024-06-26T18:22:20.5503421', '2024-06-27T14:37:30.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.', '2024-06-26T19:23:21.5503421', '2024-06-27T15:38:31.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?', '2024-06-26T20:24:22.5503421', '2024-06-27T16:39:32.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.', '2024-06-26T21:25:23.5503421', '2024-06-27T17:40:33.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.', '2024-06-26T22:26:24.5503421', '2024-06-27T18:41:34.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', '2024-06-26T23:27:25.5503421', '2024-06-27T19:42:35.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.', '2024-06-26T00:28:26.5503421', '2024-06-27T20:43:36.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Et harum quidem rerum facilis est et expedita distinctio.', '2024-06-27T01:29:27.5503421', '2024-06-27T21:44:37.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.', '2024-06-27T02:30:28.5503421', '2024-06-27T22:45:38.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?', '2024-06-27T03:31:29.5503421', '2024-06-27T23:46:39.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.', '2024-06-27T04:32:30.5503421', '2024-06-28T00:47:40.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', '2024-06-27T05:33:31.5503421', '2024-06-28T01:48:41.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.', '2024-06-27T06:34:32.5503421', '2024-06-28T02:49:42.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('ABIERTO', 1, 'Et harum quidem rerum facilis est et expedita distinctio.', '2024-06-27T07:35:33.5503421', '2024-06-28T03:50:43.5503421');
+INSERT INTO tbl_tickets (status, user_id, description, creation_date, update_date) VALUES ('CERRADO', 2, 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.', '2024-06-27T08:36:34.5503421', '2024-06-28T04:51:44.5503421');
+
